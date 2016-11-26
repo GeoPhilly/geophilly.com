@@ -6,7 +6,7 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
@@ -22,7 +22,7 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    
+
     margin-top: 70px;
 }
 
@@ -46,7 +46,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #0099cc;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -95,7 +95,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878
+	background: #0099cc
 }
 
 .navbar-inverse .navbar-brand {
@@ -106,7 +106,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-brand i {
-	color: #ff7878;
+	color: #0099cc;
 	font-size: 22px;
 	letter-spacing: 1px;
 }
@@ -119,7 +119,7 @@ a:after {
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
 }
- 
+
 .tilt:hover {
   -webkit-transform: rotate(-10deg);
      -moz-transform: rotate(-10deg);
@@ -141,7 +141,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -194,19 +194,19 @@ a:after {
 }
 
 
-/* Red Wrap */
-#r {
-	background: #ff7878;
+/* Blue Call to Action Wrap */
+#blue-cta {
+	background: #0099cc;
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
 
-#r h4 {
+#blue-cta h4 {
 	color: white;
 	font-weight: 700;
 }
 
-#r p {
+#blue-cta p {
 	color: white;
 }
 
@@ -243,7 +243,7 @@ a:after {
 }
 
 #f i:hover {
-	color: #ff7878;
+	color: #0099cc;
 }
 
 /****** SECTIONS *****/
@@ -257,7 +257,7 @@ a:after {
 }
 
 .w i {
-	color: #ff7878;
+	color: #0099cc;
 	font-size: 30px;
 }
 
@@ -280,7 +280,7 @@ a:after {
 }
 
 .desc i {
-	color: #ff7878;
+	color: #0099cc;
 	font-size: 12px;
 	padding: 5px;
 }
@@ -310,13 +310,13 @@ a:after {
 
 .modal-footer {
 	background: #f2f2f2;
-	margin-top: 0px; 
+	margin-top: 0px;
 }
 
 /* ==========================================================================
    Pricing Tables
    ========================================================================== */
-   
+
 .pricing-option {
     padding-bottom: 40px;
 }
@@ -406,7 +406,5 @@ a:after {
 }
 
 .pricing-option .pricing-signup:hover {
-    background: #ff7878;
+    background: #0099cc;
 }
-
-
