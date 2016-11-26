@@ -83,6 +83,34 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+a.white {
+    color: #ffffff;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a.white:hover,
+a.white:focus {
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+    outline: 0;
+}
+
+a.white:before,
+a.white:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
  hr {
     display: block;
     height: 1px;
