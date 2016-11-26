@@ -33,6 +33,17 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+/* Header Image */
+.header-image {
+    height: 25px;
+    width: 159px;
+}
+
+.header-image:hover {
+    image: url('../img/geo-phl-logo-white.png');
+    height: 25px;
+    width: 159px;
+}
 
 /* Paragraph & Typographic */
 p {
@@ -105,7 +116,7 @@ a:after {
 	letter-spacing: 1px;
 }
 
-.navbar-inverse .navbar-brand i {
+.navbar-inverse .navbar-brand {
 	color: #0099cc;
 	font-size: 22px;
 	letter-spacing: 1px;
