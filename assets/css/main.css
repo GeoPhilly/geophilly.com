@@ -254,6 +254,13 @@ a.white:after {
 	letter-spacing: 2px;
 }
 
+#blue-cta h3 {
+    color: white;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
 #blue-cta p {
 	color: white;
 }
