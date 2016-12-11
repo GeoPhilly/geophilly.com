@@ -111,6 +111,33 @@ a.white:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+a.footer {
+    color: #bdbdbd;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a.footer:hover,
+a.footer:focus {
+    color: #0099cc;
+    text-decoration: none;
+    outline: 0;
+}
+
+a.footer:before,
+a.footer:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
  hr {
     display: block;
     height: 1px;
